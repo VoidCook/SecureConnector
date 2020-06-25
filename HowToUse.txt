@@ -1,0 +1,11 @@
+You need Python 3 with Cryptodome and tkinter installed. Cryptodome module installs as pycryptodomex. 
+
+You need your peer in the same LAN (or VPN, but those still sometimes mess the packets). 
+
+Add 'public' and 'keys' directories to your working directory (where you keep Window.py and Klient.py).
+
+Fire up Klient.py. Log in. Remember your login and password! You will recieve no warning if you mess it up later - that's part of the security.  
+
+Share the public.pem file with your peer. It should be generated in your working directory. Put you friend's public.pem file in your 'public' directory. 
+
+Now you can login again. Set your peer's IP and port. You can start messaging. 
